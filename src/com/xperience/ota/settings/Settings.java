@@ -14,7 +14,7 @@
  *=========================================================================
  */
 
-package com.slim.ota.settings;
+package com.xperience.ota.settings;
 
 import android.app.AlarmManager;
 import android.content.SharedPreferences;
@@ -26,15 +26,15 @@ import android.preference.PreferenceActivity;
 import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
 
-import com.slim.ota.updater.UpdateListener;
-import com.slim.ota.R;
+import com.xperience.ota.updater.UpdateListener;
+import com.xperience.ota.R;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
 
 public class Settings extends PreferenceActivity implements
         Preference.OnPreferenceChangeListener {
     @SuppressWarnings("unused")
-    private static final String TAG = "SlimOTASettings";
+    private static final String TAG = "XPerienceOTASettings";
 
     private static final String KEY_UPDATE_INTERVAL = "update_interval";
     private static final String LAST_INTERVAL = "lastInterval";
@@ -46,7 +46,7 @@ public class Settings extends PreferenceActivity implements
         super.onCreate(savedInstanceState);
         getActionBar().setDisplayHomeAsUpEnabled(true);
 
-        addPreferencesFromResource(R.xml.slim_ota_settings);
+        addPreferencesFromResource(R.xml.xpe_ota_settings);
 
         PreferenceScreen prefs = getPreferenceScreen();
 
@@ -103,7 +103,7 @@ public class Settings extends PreferenceActivity implements
             } else {
                 SharedPreferences prefs = getSharedPreferences(LAST_INTERVAL, 0);
                 prefs.edit().putLong(LAST_INTERVAL, 1).apply();
-                com.slim.ota.updater.ConnectivityReceiver.disableReceiver(this);
+                com.xperience.ota.updater.ConnectivityReceiver.disableReceiver(this);
                 WakefulIntentService.cancelAlarms(this);
             }
     }

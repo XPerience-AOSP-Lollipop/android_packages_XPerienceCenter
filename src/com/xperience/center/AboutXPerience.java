@@ -13,10 +13,10 @@
  *
  *=========================================================================
  */
-package com.slim.center;
+package com.xperience.center;
 
-import com.slim.ota.R;
-import com.slim.sizer.SlimSizer;
+import com.xperience.ota.R;
+import com.xperience.sizer.XPerienceSizer;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -51,9 +51,9 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.android.internal.util.slim.BuildInfo;
+//#import com.xperience.utils.BuildInfo;
 
-public class AboutSlim extends Fragment{
+public class AboutXPerience extends Fragment{
 
     private LinearLayout website;
     private LinearLayout source;
@@ -76,7 +76,7 @@ public class AboutSlim extends Fragment{
     byte[] buf = new byte[1024];
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.slim_about, container, false);
+        View view = inflater.inflate(R.layout.xperience_about, container, false);
         return view;
     }
 
@@ -84,22 +84,12 @@ public class AboutSlim extends Fragment{
         @Override
         public void onClick(View v) {
             if (v == website) {
-                launchUrl("http://slimroms.net/");
+                launchUrl("xxxxxxxxx");
             } else if (v == source) {
-                launchUrl("http://github.com/SlimRoms");
+                launchUrl("http://github.com/XPerience-AOSP-Lollipop");
             } else if (v == donate) {
-                launchUrl("http://www.slimroms.net/index.php/donations");
-            } else if (v == irc) {
-                if (isCallable(IRC_INTENT)){
-                    startActivity(IRC_INTENT);
-                } else {
-                    if (BuildInfo.getSlimBuildType().equals("UNOFFICIAL")) {
-                        ircDialog();
-                    } else {
-                        toast(getResources().getString(R.string.no_irc));
-                    }
-                }
-            } else if (v == report) {
+                launchUrl("http://forum.xda-developers.com/donatetome.php?u=4403780");
+            }  else if (v == report) {
                 bugreport();
             }
         }
@@ -111,19 +101,19 @@ public class AboutSlim extends Fragment{
 
         //set LinearLayouts and onClickListeners
 
-        website = (LinearLayout) getView().findViewById(R.id.slim_website);
+        website = (LinearLayout) getView().findViewById(R.id.xperience_website);
         website.setOnClickListener(mActionLayouts);
 
-        source = (LinearLayout) getView().findViewById(R.id.slim_source);
+        source = (LinearLayout) getView().findViewById(R.id.xperience_source);
         source.setOnClickListener(mActionLayouts);
 
-        donate = (LinearLayout) getView().findViewById(R.id.slim_donate);
+        donate = (LinearLayout) getView().findViewById(R.id.xperience_donate);
         donate.setOnClickListener(mActionLayouts);
 
-        irc = (LinearLayout) getView().findViewById(R.id.slim_irc);
+        irc = (LinearLayout) getView().findViewById(R.id.xperience_irc);
         irc.setOnClickListener(mActionLayouts);
 
-        report = (LinearLayout) getView().findViewById(R.id.slim_bugreport);
+        report = (LinearLayout) getView().findViewById(R.id.xperience_bugreport);
         report.setOnClickListener(mActionLayouts);
         //request su
         try {
@@ -179,16 +169,16 @@ public class AboutSlim extends Fragment{
          }
         String kernel=getFormattedKernelVersion();
         //check if sdcard is available
-        SlimSizer sizer=new SlimSizer();
+        XPerienceSizer sizer=new XPerienceSizer();
         short state = sizer.sdAvailable();
         //initialize logfiles
         File extdir = Environment.getExternalStorageDirectory();
-        path = new File(extdir.getAbsolutePath().replace("emulated/0", "emulated/legacy") + "/Slim/Bugreport");
+        path = new File(extdir.getAbsolutePath().replace("emulated/0", "emulated/legacy") + "/XPerience/Bugreport");
         File savefile = new File(path + "/system.log");
         File logcat = new File(path + "/logcat.log");
         File last_kmsg = new File(path + "/last_kmsg.log");
         File kmsg = new File(path + "/kmsg.log");
-        File zip = new File(Environment.getExternalStorageDirectory() + "/Slim/bugreport.zip");
+        File zip = new File(Environment.getExternalStorageDirectory() + "/XPerience/bugreport.zip");
         systemfile = savefile.toString();
         logfile = logcat.toString();
         last_kmsgfile = last_kmsg.toString();

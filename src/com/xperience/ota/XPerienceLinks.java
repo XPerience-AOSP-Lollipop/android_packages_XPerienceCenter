@@ -14,9 +14,7 @@
  *=========================================================================
  */
 
-package com.slim.ota;
-
-import com.slim.ota.R;
+package com.xperience.ota;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -36,7 +34,7 @@ import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 
-public class SlimLinks extends Fragment {
+public class XPerienceLinks extends Fragment {
 
     private LinearLayout mChangelog;
     private LinearLayout mDownload;
@@ -53,7 +51,7 @@ public class SlimLinks extends Fragment {
     private String mStrCurFile;
 
     public View onCreateView (LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.slim_ota_links, container, false);
+        View view = inflater.inflate(R.layout.xperience_ota_links, container, false);
         return view;
     }
 
@@ -116,7 +114,7 @@ public class SlimLinks extends Fragment {
             String strLine;
             while ((strLine = br.readLine()) != null) {
                 String[] line = strLine.split("=");
-                if (line[0].equals("ro.modversion")) {
+                if (line[0].equals("ro.xpe.version")) {
                     mStrCurFile = line[1];
                 }
             }

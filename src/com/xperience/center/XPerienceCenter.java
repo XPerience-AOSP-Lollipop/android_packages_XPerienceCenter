@@ -13,14 +13,14 @@
  *
  *=========================================================================
  */
-package com.slim.center;
+package com.xperience.center;
 
 import java.util.Locale;
 
-import com.slim.ota.R;
-import com.slim.ota.SlimOTA;
-import com.slim.ota.settings.About;
-import com.slim.sizer.SlimSizer;
+import com.xperience.ota.R;
+import com.xperience.ota.XPerienceOTA;
+import com.xperience.ota.settings.About;
+import com.xperience.sizer.XPerienceSizer;
 
 import android.app.ActionBar;
 import android.app.FragmentTransaction;
@@ -34,14 +34,14 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-public class SlimCenter extends FragmentActivity implements
+public class XPerienceCenter extends FragmentActivity implements
 ActionBar.TabListener{
     SectionsPagerAdapter mSectionsPagerAdapter;
     ViewPager mViewPager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.slim_center);
+        setContentView(R.layout.xperience_center);
 
         // Set up the action bar.
         final ActionBar actionBar = getActionBar();
@@ -116,7 +116,7 @@ ActionBar.TabListener{
             Locale l = Locale.getDefault();
             switch (position) {
             case 0:
-                return getString(R.string.aboutslim_title).toUpperCase(l);                
+                return getString(R.string.aboutxperience_title).toUpperCase(l);
             case 1:
                 return getString(R.string.ota_title).toUpperCase(l);                
             case 2:
@@ -128,11 +128,11 @@ ActionBar.TabListener{
         public android.support.v4.app.Fragment getItem(int page) {
             switch (page) {
             case 0:
-                return new AboutSlim();                
+                return new AboutXPerience();
             case 1:
-                return new SlimOTA();                
+                return new XPerienceOTA();
             case 2:
-                return new SlimSizer();
+                return new XPerienceSizer();
             }
             return null;
         }
@@ -141,7 +141,7 @@ ActionBar.TabListener{
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.slim_center, menu);
+        inflater.inflate(R.menu.xperience_center, menu);
         return true;
     }
 

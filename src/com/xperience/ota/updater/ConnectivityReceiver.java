@@ -14,7 +14,7 @@
  *=========================================================================
  */
 
-package com.slim.ota.updater;
+package com.xperience.ota.updater;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;

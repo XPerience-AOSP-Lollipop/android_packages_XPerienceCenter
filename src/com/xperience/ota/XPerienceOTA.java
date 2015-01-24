@@ -14,7 +14,7 @@
  *=========================================================================
  */
 
-package com.slim.ota;
+package com.xperience.ota;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;
@@ -37,12 +37,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.slim.ota.updater.UpdateChecker;
-import com.slim.ota.updater.UpdateListener;
-import com.slim.ota.settings.Settings;
+import com.xperience.ota.updater.UpdateChecker;
+import com.xperience.ota.updater.UpdateListener;
+import com.xperience.ota.settings.Settings;
 import com.commonsware.cwac.wakeful.WakefulIntentService;
 
-public class SlimOTA extends Fragment implements OnSharedPreferenceChangeListener {
+public class XPerienceOTA extends Fragment implements OnSharedPreferenceChangeListener {
 
     private static final int ID_DEVICE_NAME = R.id.deviceName;
     private static final int ID_DEVICE_CODE_NAME = R.id.deviceCodename;
@@ -68,7 +68,7 @@ public class SlimOTA extends Fragment implements OnSharedPreferenceChangeListene
 
     SharedPreferences prefs;
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.slim_ota, container, false);
+        View view = inflater.inflate(R.layout.xperience_ota, container, false);
         return view;
     }
 
@@ -149,19 +149,19 @@ public class SlimOTA extends Fragment implements OnSharedPreferenceChangeListene
 
     private void setDeviceInfoContainer() {
         try {
-            FileInputStream fstream = new FileInputStream("/system/build.prop");
-            DataInputStream in = new DataInputStream(fstream);
+            FileInputStream xpere = new FileInputStream("/system/build.prop");
+            DataInputStream in = new DataInputStream(xpere);
             BufferedReader br = new BufferedReader(new InputStreamReader(in));
             String strLine;
             while ((strLine = br.readLine()) != null) {
                 String[] line = strLine.split("=");
-                if (line[0].equalsIgnoreCase("ro.slim.device")) {
+                if (line[0].equalsIgnoreCase("ro.cm.device")) {
                     mStrCodename = line[1];
-                } else if (line[0].equalsIgnoreCase("slim.ota.version")) {
+                } else if (line[0].equalsIgnoreCase("ro.xpe.display.version")) {
                     mStrCurVer = line[1];
-                } else if (line[0].equalsIgnoreCase("ro.slim.model")) {
+                } else if (line[0].equalsIgnoreCase("ro.xpe.model")) {
                     mStrDevice = line[1];
-                } else if (line[0].equalsIgnoreCase("ro.modversion")) {
+                } else if (line[0].equalsIgnoreCase("ro.xpe.version")) {
                     mStrCurFile = line[1];
                 }
             }
@@ -203,8 +203,8 @@ public class SlimOTA extends Fragment implements OnSharedPreferenceChangeListene
     private void addShortCutFragment() {
         FragmentManager fragmentManager = this.getActivity().getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        SlimLinks slimLinks = new SlimLinks();
-        fragmentTransaction.replace(R.id.linksFragment, slimLinks);
+        XPerienceLinks xperienceLinks = new XPerienceLinks();
+        fragmentTransaction.replace(R.id.linksFragment, xperienceLinks);
         fragmentTransaction.commit();
     }
 

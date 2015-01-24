@@ -14,19 +14,17 @@
  *=========================================================================
  */
 
-package com.slim.ota.settings;
+package com.xperience.ota.settings;
 
 import android.app.ActionBar;
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.text.method.LinkMovementMethod;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import com.slim.center.SlimCenter;
-import com.slim.ota.R;
+import com.xperience.ota.R;
 
 public class About extends Activity {
     @SuppressWarnings("unused")
