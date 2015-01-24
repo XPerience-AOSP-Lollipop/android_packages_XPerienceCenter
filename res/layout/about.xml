@@ -68,7 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/about_copyright"
         android:layout_marginTop="20dip"
-        android:text="@string/about_slim_ota"
+        android:text="@string/about_xperience_ota"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <TextView
