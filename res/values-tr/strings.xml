@@ -16,7 +16,6 @@
  * limitations under the License.
 -->
 <resources>
-  <string name="app_name">SlimCenter</string>
   <string name="menu_settings">Ayarlar</string>
   <string name="device_title">Cihaz</string>
   <string name="device_name_title">Ad:</string>
@@ -29,13 +28,13 @@
   <string name="device_info_title">Cihaz Bilgi</string>
   <string name="up_to_date_title">Sisteminiz güncel</string>
   <string name="no_data_title">İnternet bağlantısı yok</string>
-  <string name="error_reading_title">SlimOTA özellikleri okunamadı</string>
+  <string name="error_reading_title">XPerience OTA özellikleri okunamadı</string>
   <string name="update_file_title">Güncelleme:</string>
-  <string name="ota_title">SlimOTA</string>
+  <string name="ota_title">XPerience OTA</string>
   <string name="reboot">İşlem tamam! Cihazınızı yeniden başlatın.</string>
   <string name="reboot_ok">Şimdi Başlatın</string>
   <string name="reboot_cancel">Sonra Başlatın</string>
-  <string name="settings_title">SlimOTA Ayarları</string>
+  <string name="settings_title">XPerience OTA Ayarları</string>
   <string name="about_title">Hakkında</string>
   <string name="update_interval_title">Otomatik Güncelleme kontrol aralığı</string>
   <string name="update_interval_summary">Otomatik Güncelleme kontrol aralığı belirleyin</string>
@@ -58,14 +57,13 @@
   <string name="short_cut_news_title">Haberler</string>
   <string name="short_cut_news_summary">En son Slim haberlerini okuyun</string>
   <string name="short_cut_download_gapps_title">GAPPS İndirin</string>
-  <string name="about_slim_ota">SlimCenter ROM\'unuzu yönetmenizde kolaylık sağlar!</string>
-  <string name="about_contact"><a href="http://otaslim.slimroms.net/contact.htm">İletişim</a></string>
+  <string name="about_xperience_ota">XPerienceCenter ROM\'unuzu yönetmenizde kolaylık sağlar!</string>
   <string name="about_contact_text">Bize düşündüklerinizi ve\veya hataları bildirin</string>
   <string name="about_license">Açık Kaynak Lisansları</string>
-  <string name="about_license_text">SlimCenter app:</string>
-  <string name="menu_slimsizer">SlimSizer</string>
+  <string name="about_license_text">XPerience Center app:</string>
+  <string name="menu_xperiencesizer">XPerience Sizer</string>
   <string name="listsystem">list</string>
-  <string name="sizer_title">SlimSizer</string>
+  <string name="sizer_title">XPerience Sizer</string>
   <string name="caution">Dikkat!</string>
   <string name="sizer_message_startup">Bu araçla sistem uygulamalarını kaldırabilirsiniz. Dikkatli kullanın ve sadece emin olduğunuz uygulamaları kaldırın.</string>
   <string name="cancel">İptal</string>
@@ -83,20 +81,18 @@
   <string name="sizer_message_filesuccess">Profil oluşturuldu.</string>
   <string name="sizer_message_filefail">Profil oluşturulamadı.</string>
   <string name="sizer_message_noselect">Hiçbirşey seçilmedi.</string>
-  <string name="aboutslim_title">SlimRoms</string>
+  <string name="aboutxperience_title">XPerience</string>
   <string name="devs">Geliştirici</string>
-  <string name="slim_website_title">Slim Web Sayfası</string>
-  <string name="slim_website_summary">www.slimroms.net\nEn Güncel Slim haberleri burada</string>
-  <string name="slim_irc_title">SlimIRC</string>
-  <string name="slim_irc_summary">IRC Destek kanalımıza katılın!\nSlim Team ve diğer kullanıcılarla sohbet edin</string>
-  <string name="slim_donate_title">Bağış</string>
-  <string name="slim_donate_summary">Slim Team\'e Bağış Yapınız</string>
-  <string name="slim_source_title">Slim Kaynakları</string>
-  <string name="slim_source_summary">SlimRoms tamamen açık kaynak kodlu bir yazılımdır.\ngithub.com/SlimRoms\'da kaynak</string>
+  <string name="xperience_website_title">XPerience Web Sayfası</string>
+  <string name="xperience_irc_title">SlimIRC</string>
+  <string name="xperience_irc_summary">IRC Destek kanalımıza katılın!\nXPerience ve diğer kullanıcılarla sohbet edin</string>
+  <string name="xperience_donate_title">Bağış</string>
+  <string name="xperience_donate_summary">XPerience \'e Bağış Yapınız</string>
+  <string name="xperience_source_title">XPerience Kaynakları</string>
   <string name="no_irc">SlimIRC uygulaması bulunamadı.</string>
-  <string name="center_summary"><b>SlimCenter</b>SlimRoms deneyiminizi kolayştıracak bilgi &amp; araçlar sağlamaktadır. <b>SlimOTA</b> kullanarak ROM\'unuzu otomatik olarak en son versiyona güncelleyin veya <b>SlimSizer</b> ile kullanmadığınız sistem uygulamalarını sorunsuz kaldırın.</string>
-  <string name="slim_bugreport">Hata bildirme</string>
-  <string name="slim_bugreport_summary">Tam hata raporu oluşturun.</string>
-  <string name="report_infosuccess">Oluşturulan hata raporunu Slim Team\'e buradan iletebilirsinz! Bu raporu, zip dosyası halinde \"Slim\" klasöründe bulabilirsiniz.</string>
+  <string name="center_summary"><b>XPerience Center</b>XPerience deneyiminizi kolayştıracak bilgi &amp; araçlar sağlamaktadır. <b>XPerience OTA</b> kullanarak ROM\'unuzu otomatik olarak en son versiyona güncelleyin veya <b>XPerience Sizer</b> ile kullanmadığınız sistem uygulamalarını sorunsuz kaldırın.</string>
+  <string name="xperience_bugreport">Hata bildirme</string>
+  <string name="xperience_bugreport_summary">Tam hata raporu oluşturun.</string>
+  <string name="report_infosuccess">Oluşturulan hata raporunu XPerience buradan iletebilirsinz! Bu raporu, zip dosyası halinde \"XPerience\" klasöründe bulabilirsiniz.</string>
   <string name="report_infofail">Hata raporu oluşturulamadı, lütfen tekrar deneyiniz.</string>
 </resources>

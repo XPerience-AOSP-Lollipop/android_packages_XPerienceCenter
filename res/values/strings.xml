@@ -18,7 +18,7 @@
 
 <resources>
     <!-- XPerienceOTA main strings -->
-    <string name="app_name">XPerienceCenter</string>
+    <string name="app_name">XPerience Center</string>
     <string name="menu_settings">Settings</string>
     <string name="device_title">Device</string>
     <string name="device_name_title">Name:</string>
@@ -31,15 +31,15 @@
     <string name="device_info_title">Device Information</string>
     <string name="up_to_date_title">Your system is up to date</string>
     <string name="no_data_title">No data connection available</string>
-    <string name="error_reading_title">Cannot read XPerienceOTA properties</string>
+    <string name="error_reading_title">Cannot read XPerience OTA properties</string>
     <string name="update_file_title">Update:</string>
-    <string name="ota_title">XPerienceOTA</string>
+    <string name="ota_title">XPerience OTA</string>
     <string name="reboot">All done! Reboot your device now.</string>
     <string name="reboot_ok">Reboot now</string>
     <string name="reboot_cancel">Don\'t reboot</string>
 
     <!-- XPerienceOTA settings -->
-    <string name="settings_title">XPerienceOTA Settings</string>
+    <string name="settings_title">XPerience OTA Settings</string>
     <string name="about_title">About</string>
     <string name="update_interval_title">Automatic update check interval</string>
     <string name="update_interval_summary">Set automatic update check interval</string>
@@ -85,19 +85,19 @@
 
     <!-- XPerienceOTA About -->
     <string name="about_home_url" translatable="false"><a href="http://klozz.github.io/git.klozz.personal/">http://klozz.github.io/git.klozz.personal/</a></string>
-    <string name="about_xperience_ota">XPerienceCenter allows you to easily manage\n your ROM!</string>
+    <string name="about_xperience_ota">XPerience Center allows you to easily manage\n your ROM!</string>
     <string name="about_copyright" translatable="false">\u00A9 Copyright XPerience 2015</string>
     <string name="about_version" translatable="false">Center 1.1</string>
     <string name="about_contact"><a href="http://klozz.github.io/git.klozz.personal/contact.htm">Contact us</a></string>
     <string name="about_contact_text">Tell us what you think\nor let us know about a bug or problem</string>
     <string name="about_license">Open source licenses</string>
-    <string name="about_license_text">Center app:</string>
+    <string name="about_license_text"></string>
     <string name="about_license_url" translatable="false"><a href="http://klozz.github.io/git.klozz.personal/license.htm">gpl(2)</a></string>
-    <string name="menu_xperiencesizer">XPerienceSizer</string>
+    <string name="menu_xperiencesizer">XPerience Sizer</string>
 
     <!-- XPerienceSizer  -->
     <string name="listsystem">list</string>
-    <string name="sizer_title">XPerienceSizer</string>
+    <string name="sizer_title">XPerience Sizer</string>
     <string name="caution">Caution!</string>
     <string name="sizer_message_startup">This tool allows you to delete system apps. Use with caution and only delete apps you know are safe to be removed.</string>
     <string name="cancel">Cancel</string>
