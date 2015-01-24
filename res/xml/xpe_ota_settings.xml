@@ -19,7 +19,10 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/settings_title">
+    android:title="@string/settings_title"
+    android:colorPrimary="#ff892e8b">
+
+
 
     <ListPreference
         android:key="update_interval"
