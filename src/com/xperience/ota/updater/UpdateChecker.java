@@ -229,8 +229,8 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
         Notification.Builder mBuilder = new Notification.Builder(mContext)
             .setContentTitle(mContext.getString(R.string.title_update))
             .setContentText(mContext.getString(R.string.notification_message))
-            .setSmallIcon(R.drawable.ic_notification_slimota)
-            .setLargeIcon(BitmapFactory.decodeResource(mContext.getResources(), R.drawable.ic_slimota));
+            .setSmallIcon(R.drawable.ic_notification_xpeota)
+            .setLargeIcon(BitmapFactory.decodeResource(mContext.getResources(), R.drawable.ic_xpeota));
 
         Intent intent = new Intent(mContext, XPerienceCenter.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

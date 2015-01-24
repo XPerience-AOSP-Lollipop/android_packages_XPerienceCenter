@@ -73,8 +73,8 @@
 
     <string name="download_url" translatable="false">https://s.basketbuild.com/devs/klozz/XPerience-rom</string>
     <string name="changelog_url" translatable="false">https://github.com/Klozz/XPerience-9.0.1_rX_Changelogs</string>
-    <string name="faq_url" translatable="false"></string>
-    <string name="news_url" translatable="false"></string>
+    <string name="faq_url" translatable="false">http://klozz.github.io/git.klozz.personal/faq.xml</string>
+    <string name="news_url" translatable="false">http://klozz.github.io/git.klozz.personal/news.html</string>
     <string name="gapps_url" translatable="false">https://s.basketbuild.com/devs/TKruzze/Android%205.0.1%20GApps</string>
     <string name="gapps_url_kitkat" translatable="false">https://s.basketbuild.com/devs/TKruzze/Android%204.4.4%20GApps</string>
 
@@ -87,7 +87,7 @@
     <string name="about_home_url" translatable="false"><a href="http://klozz.github.io/git.klozz.personal/">http://klozz.github.io/git.klozz.personal/</a></string>
     <string name="about_xperience_ota">XPerience Center allows you to easily manage\n your ROM!</string>
     <string name="about_copyright" translatable="false">\u00A9 Copyright XPerience 2015</string>
-    <string name="about_version" translatable="false">Center 1.1</string>
+    <string name="about_version" translatable="false">Center 1.3</string>
     <string name="about_contact"><a href="http://klozz.github.io/git.klozz.personal/contact.htm">Contact us</a></string>
     <string name="about_contact_text">Tell us what you think\nor let us know about a bug or problem</string>
     <string name="about_license">Open source licenses</string>
