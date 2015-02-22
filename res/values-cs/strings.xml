@@ -97,7 +97,7 @@
   <string name="xperience_donate_title">Přispět</string>
   <string name="xperience_donate_summary">Přispějte týmu XPerience</string>
   <string name="xperience_source_title">XPerience Zdroj</string>
-  <string name="xperience_source_summary">XPerience jsou zcela open source.\nZdroje najdete na github.com/XPerience-AOSP-Lollipop</string>
+  <string name="xperience_source_summary">XPerience jsou zcela open source.\nZdroje najdete na github.com</string>
   <string name="no_irc">SlimIRC aplikace nenalezena.</string>
   <string name="no_irc_unofficial">SlimIRC není k dispozici na neoficiálních sestaveních.</string>
   <string name="center_summary"><b>XPerience Center</b> poskytuje nástroje a informace, které pomohou učinit vaše zkušenosti se XPerience ještě lepší. Automaticky aktualizujte na nejnovější verzi naší ROM pomocí <b>XPerience OTA</b> a odstraňte nežádoucí systémové aplikace <b>XPerience Sizerem</b></string>

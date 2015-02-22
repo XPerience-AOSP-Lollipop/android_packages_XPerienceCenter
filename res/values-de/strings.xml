@@ -98,7 +98,7 @@
   <string name="xperience_donate_title">Spenden</string>
   <string name="xperience_donate_summary">Spende an XPerience</string>
   <string name="xperience_source_title">XPerience Quellcode</string>
-  <string name="xperience_source_summary">XPerience sind vollständig Open Source.\nQuellcode bei github.com/XPerience</string>
+  <string name="xperience_source_summary">XPerience sind vollständig Open Source.\nQuellcode bei github.com/</string>
   <string name="no_irc">XPerienceIRC App nicht gefunden.</string>
   <string name="no_irc_unofficial">XPerienceIRC steht in inoffiziellen Builds nicht zur Verfügung.</string>
   <string name="center_summary"><b>XPerience Center</b> stellt Werkzeuge &amp; Informationen bereit, die Ihnen helfen, Ihre Erfahrung mit XPerience weiter zu verbessern. Aktualisieren Sie automatisch auf die neueste ROM-Version mit <b>XPerience OTA</b> und entfernen Sie nicht benötigte System-Apps mit <b>XPerienceSizer</b>.</string>

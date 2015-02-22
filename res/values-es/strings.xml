@@ -96,7 +96,7 @@
   <string name="xperience_donate_title">Donar</string>
   <string name="xperience_donate_summary">Dona al equipo de XPerience</string>
   <string name="xperience_source_title">Código fuente de XPerience</string>
-  <string name="xperience_source_summary">XPerience es completamente de código abierto.\nCódigo fuente en github.com/XPerience-AOSP-Lollipop</string>
+  <string name="xperience_source_summary">XPerience es completamente de código abierto.\nCódigo fuente en github.com</string>
   <string name="no_irc">XPerienceIRC App no encontrada.</string>
   <string name="no_irc_unofficial">XPerienceIRC no está disponible en compilaciones no oficiales.</string>
   <string name="center_summary"><b>XPerience Center</b> proporciona herramientas e información para ayudarte a mejorar tu experiencia con XPerience. Puedes actualizar automáticamente a la versión más reciente de nuestra ROM con <b>XPerience OTA</b> y eliminar aplicaciones no deseadas del sistema con <b>XPerience Sizer</b></string>

@@ -73,7 +73,7 @@
 
     <string name="download_url" translatable="false">https://s.basketbuild.com/devs/klozz/XPerience-rom</string>
     <string name="changelog_url" translatable="false">https://github.com/Klozz/XPerience-9.0.1_rX_Changelogs</string>
-    <string name="faq_url" translatable="false">http://klozz.github.io/git.klozz.personal/faq.xml</string>
+    <string name="faq_url" translatable="false">http://klozz.github.io/git.klozz.personal/FAQ.html</string>
     <string name="news_url" translatable="false">http://klozz.github.io/git.klozz.personal/news.html</string>
     <string name="gapps_url" translatable="false">https://s.basketbuild.com/devs/TKruzze/Android%205.0.1%20GApps</string>
     <string name="gapps_url_kitkat" translatable="false">https://s.basketbuild.com/devs/TKruzze/Android%204.4.4%20GApps</string>
@@ -128,7 +128,7 @@
     <string name="xperience_donate_title">Donate</string>
     <string name="xperience_donate_summary">Donate to XPerience Project</string>
     <string name="xperience_source_title">XPerience Source</string>
-    <string name="xperience_source_summary">XPerience are fully open source.\nSource at github.com/XPerience-AOSP-Lollipop</string>
+    <string name="xperience_source_summary">XPerience are fully open source.\nSource at github.com/</string>
     <string name="no_irc">XPerienceIRC App not found.</string>
     <string name="no_irc_unofficial">SlimIRC is not available on unofficial builds.</string>
     <string name="center_summary"><b>Center</b> provides tools &amp; information to help make your experience with XPerience even better. Upgrade automatically to the newest version of our ROM with <b>XPerienceOTA</b> and remove unwanted system apps with <b>XPerienceSizer</b>.</string>
