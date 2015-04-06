@@ -73,14 +73,14 @@
 
     <string name="download_url" translatable="false">https://s.basketbuild.com/devs/klozz/XPerience-rom</string>
     <string name="changelog_url" translatable="false">https://github.com/Klozz/XPerience-9.0.1_rX_Changelogs</string>
-    <string name="faq_url" translatable="false">http://klozz.github.io/git.klozz.personal/FAQ.html</string>
-    <string name="news_url" translatable="false">http://klozz.github.io/git.klozz.personal/news.html</string>
-    <string name="gapps_url" translatable="false">https://s.basketbuild.com/devs/TKruzze/Android%205.0.1%20GApps</string>
-    <string name="gapps_url_kitkat" translatable="false">https://s.basketbuild.com/devs/TKruzze/Android%204.4.4%20GApps</string>
+    <string name="faq_url" translatable="false">http://xpe.cynd.gq/about.html</string>
+    <string name="news_url" translatable="false">http://xpe.cynd.gq/NEWS.html</string>
+    <string name="gapps_url" translatable="false">http://d-h.st/users/TKruzze/?fld_id=44393#files</string>
+    <string name="gapps_url_kitkat" translatable="false">http://d-h.st/users/TKruzze/?fld_id=44391#files</string>
 
     <!-- XPerienceOTA update checker -->
-    <string name="xml_url" translatable="false">http://klozz.github.io/git.klozz.personal/ota.xml</string>
-    <string name="xml_url_kitkat" translatable="false">http://klozz.github.io/git.klozz.personal/ota_kitkat.xml</string>
+    <string name="xml_url" translatable="false">http://xpe.cynd.gq/ota.xml</string>
+    <string name="xml_url_kitkat" translatable="false">http://xpe.cynd.gq/ota_kitkat.xml</string>
     <string name="notification_message">XPerience Rom update available</string>
 
     <!-- XPerienceOTA About -->
@@ -122,7 +122,7 @@
     <string name="aboutxperience_title">The XPerience Project</string>
     <string name="devs">Developer</string>
     <string name="xperience_website_title">XPerience Website</string>
-    <string name="xperience_website_summary">http://klozz.github.io/git.klozz.personal\nFind all latest XPerience news here</string>
+    <string name="xperience_website_summary">http://xpe.cynd.gq\nFind all latest XPerience news here</string>
     <string name="xperience_irc_title">mmIRC</string>
     <string name="xperience_irc_summary">Join our IRC channel!\nChat with the XPerience Team and other users</string>
     <string name="xperience_donate_title">Donate</string>

@@ -84,7 +84,7 @@ public class AboutXPerience extends Fragment{
         @Override
         public void onClick(View v) {
             if (v == website) {
-                launchUrl("http://klozz.github.io/git.klozz.personal");
+                launchUrl("http://xpe.cynd.gq/");
             } else if (v == source) {
                 launchUrl("http://github.com/XPerience-AOSP-Lollipop");
             } else if (v == donate) {
