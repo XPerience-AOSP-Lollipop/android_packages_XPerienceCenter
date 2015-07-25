@@ -75,7 +75,7 @@
     <string name="changelog_url" translatable="false">https://github.com/Klozz/XPerience-9.0.1_rX_Changelogs</string>
     <string name="faq_url" translatable="false">http://xpe.cynd.gq/about.html</string>
     <string name="news_url" translatable="false">http://xpe.cynd.gq/NEWS.html</string>
-    <string name="gapps_url" translatable="false">http://d-h.st/users/TKruzze/?fld_id=44393#files</string>
+    <string name="gapps_url" translatable="false">http://d-h.st/users/TKruzze/?fld_id=45493#files</string>
     <string name="gapps_url_kitkat" translatable="false">http://d-h.st/users/TKruzze/?fld_id=44391#files</string>
 
     <!-- XPerienceOTA update checker -->
@@ -84,7 +84,7 @@
     <string name="notification_message">XPerience Rom update available</string>
 
     <!-- XPerienceOTA About -->
-    <string name="about_home_url" translatable="false"><a href="http://klozz.github.io/git.klozz.personal/">http://klozz.github.io/git.klozz.personal/</a></string>
+    <string name="about_home_url" translatable="false"><a href="http://xpe.cynd.gq/">http://xpe.cynd.gq/</a></string>
     <string name="about_xperience_ota">XPerience Center allows you to easily manage\n your ROM!</string>
     <string name="about_copyright" translatable="false">\u00A9 Copyright XPerience 2015</string>
     <string name="about_version" translatable="false">Center 1.3</string>
