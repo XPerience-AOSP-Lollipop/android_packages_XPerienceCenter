@@ -50,7 +50,6 @@
 		APK needs to be in priv-app for this to work!
 		-->
 		<action android:name="android.settings.SYSTEM_UPDATE_SETTINGS" />
-                <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity

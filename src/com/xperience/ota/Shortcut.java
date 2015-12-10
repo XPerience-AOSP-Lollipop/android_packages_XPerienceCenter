@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.content.Intent;
 
+import com.xperience.center.XPerienceCenter;
+
 public class Shortcut extends Activity {
 
     @Override
@@ -11,7 +13,7 @@ public class Shortcut extends Activity {
         super.onCreate(savedInstanceState);
 
         Intent intent = new Intent();
-        intent.putExtra(Intent.EXTRA_SHORTCUT_INTENT, new Intent(this, MainActivity.class));
+        intent.putExtra(Intent.EXTRA_SHORTCUT_INTENT, new Intent(this, XPerienceCenter.class));
         intent.putExtra(Intent.EXTRA_SHORTCUT_NAME, this.getResources().getString(R.string.title));
         intent.putExtra(Intent.EXTRA_SHORTCUT_ICON_RESOURCE, Intent.ShortcutIconResource.fromContext(this, R.drawable.ic_launcher_settings));
         setResult(RESULT_OK, intent);
