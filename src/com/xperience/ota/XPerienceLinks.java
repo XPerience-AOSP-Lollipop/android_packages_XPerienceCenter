@@ -141,10 +141,10 @@ public class XPerienceLinks extends Fragment {
 
     public void updateView() {
         if (!mStrFileNameNew.equals("") && !(mStrFileNameNew.compareToIgnoreCase(mStrCurFile)<=0)) {
-            mChangelogTitle.setTextColor(Color.GREEN);
-            mChangelogSummary.setTextColor(Color.GREEN);
-            mDownloadTitle.setTextColor(Color.GREEN);
-            mDownloadSummary.setTextColor(Color.GREEN);
+            mChangelogTitle.setTextColor(Color.BLUE);
+            mChangelogSummary.setTextColor(Color.BLUE);
+            mDownloadTitle.setTextColor(Color.BLUE);
+            mDownloadSummary.setTextColor(Color.BLUE);
 
             mChangelogSummary.setText(getString(R.string.short_cut_changelog_summary_update_available));
             mDownloadSummary.setText(getString(R.string.short_cut_download_summary_update_available));
