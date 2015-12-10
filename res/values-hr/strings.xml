@@ -16,7 +16,6 @@
  * limitations under the License.
 -->
 <resources>
-  <string name="app_name">XPerience Centar</string>
   <string name="menu_settings">Postavke</string>
   <string name="device_title">Uređaj</string>
   <string name="device_name_title">Ime:</string>

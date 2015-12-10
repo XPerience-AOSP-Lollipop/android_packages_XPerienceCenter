@@ -16,7 +16,6 @@
  * limitations under the License.
 -->
 <resources>
-  <string name="app_name">Trung tâm XPerience</string>
   <string name="menu_settings">Cài đặt</string>
   <string name="device_title">Thiết bị</string>
   <string name="device_name_title">Tên:</string>

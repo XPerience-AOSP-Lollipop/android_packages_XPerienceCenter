@@ -16,7 +16,6 @@
  * limitations under the License.
 -->
 <resources>
-  <string name="app_name">XPerienceCenter</string>
   <string name="menu_settings">Asetukset</string>
   <string name="device_title">Laite</string>
   <string name="device_name_title">Nimi:</string>

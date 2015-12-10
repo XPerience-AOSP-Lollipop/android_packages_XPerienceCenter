@@ -16,7 +16,6 @@
  * limitations under the License.
 -->
 <resources>
-  <string name="app_name">XPerience-Центер</string>
   <string name="menu_settings">Параметри</string>
   <string name="device_title">Пристрій</string>
   <string name="device_name_title">Ім’я:</string>

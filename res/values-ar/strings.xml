@@ -16,7 +16,7 @@
  * limitations under the License.
 -->
 <resources>
-  <string name="app_name">اعدادات \"سليم\"</string>
+  <string name="app_name">منتجع التحديث</string>
   <string name="menu_settings">الاعدادات</string>
   <string name="device_title">الجهاز</string>
   <string name="device_name_title">الاسم:</string>

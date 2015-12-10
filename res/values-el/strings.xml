@@ -16,7 +16,6 @@
  * limitations under the License.
 -->
 <resources>
-  <string name="app_name">XPerienceCenter</string>
   <string name="menu_settings">Ρυθμίσεις</string>
   <string name="device_title">Συσκευή</string>
   <string name="device_name_title">Name:</string>

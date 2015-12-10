@@ -18,7 +18,8 @@
 
 <resources>
     <!-- XPerienceOTA main strings -->
-    <string name="app_name">XPerience Center</string>
+    <string name="app_name">XPerience updater</string>
+    <string name="title">System update</string>
     <string name="menu_settings">Settings</string>
     <string name="device_title">Device</string>
     <string name="device_name_title">Name:</string>
