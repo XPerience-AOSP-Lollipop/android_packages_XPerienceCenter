@@ -189,7 +189,7 @@ public class XPerienceOTA extends Fragment implements OnSharedPreferenceChangeLi
             mStrUpToDate = getString(R.string.error_reading_title);
             mStatusIcon.setImageResource(R.drawable.ic_no_data);
         } else if (updateFile.compareToIgnoreCase(mStrCurVer)<=0) {
-            mUpdateFile.setTextColor(Color.GREEN);
+            mUpdateFile.setTextColor(Color.BLUE);
             mStrUpToDate = getString(R.string.up_to_date_title);
             mStatusIcon.setImageResource(R.drawable.ic_uptodate);
         } else {
