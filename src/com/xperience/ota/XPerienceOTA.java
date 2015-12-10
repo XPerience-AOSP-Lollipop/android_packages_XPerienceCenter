@@ -155,7 +155,7 @@ public class XPerienceOTA extends Fragment implements OnSharedPreferenceChangeLi
             String strLine;
             while ((strLine = br.readLine()) != null) {
                 String[] line = strLine.split("=");
-                if (line[0].equalsIgnoreCase("ro.cm.device")) {
+                if (line[0].equalsIgnoreCase("ro.xpe.device")) {
                     mStrCodename = line[1];
                 } else if (line[0].equalsIgnoreCase("ro.xpe.display.version")) {
                     mStrCurVer = line[1];

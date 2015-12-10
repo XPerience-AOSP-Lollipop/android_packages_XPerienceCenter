@@ -104,7 +104,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
             String strLine;
             while ((strLine = br.readLine()) != null) {
                 String[] line = strLine.split("=");
-                if (line[0].equalsIgnoreCase("ro.cm.device")) {
+                if (line[0].equalsIgnoreCase("ro.xpe.device")) {
                     strDevice = line[1].trim();
                 } else if (line[0].equalsIgnoreCase("ro.xpe.version")) {
                     xperienceCurVer = line[1].trim();
@@ -133,8 +133,8 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
             String newUpdateUrl = null;
             String newFileName = null;
             URL url = null;
-            if (xperienceCurVer != null && xperienceCurVer.contains("4.4")) {
-                url = new URL(mContext.getString(R.string.xml_url_kitkat));
+            if (xperienceCurVer != null && xperienceCurVer.contains("5.0")) {
+                url = new URL(mContext.getString(R.string.xml_url_lollipop));
             } else {
                 url = new URL(mContext.getString(R.string.xml_url));
             }

@@ -76,12 +76,12 @@
     <string name="changelog_url" translatable="false">https://github.com/Klozz/XPerience-9.0.1_rX_Changelogs</string>
     <string name="faq_url" translatable="false">http://xpe.esy.es/about.html</string>
     <string name="news_url" translatable="false">http://xpe.esy.es/NEWS.html</string>
-    <string name="gapps_url" translatable="false">http://d-h.st/users/TKruzze/?fld_id=45493#files</string>
-    <string name="gapps_url_kitkat" translatable="false">http://d-h.st/users/TKruzze/?fld_id=44391#files</string>
+    <string name="gapps_url" translatable="false">http://opengapps.org/</string>
+    <string name="gapps_url_lollipop" translatable="false">http://opengapps.org/</string>
 
     <!-- XPerienceOTA update checker -->
     <string name="xml_url" translatable="false">http://xpe.esy.es/ota.xml</string>
-    <string name="xml_url_kitkat" translatable="false">http://xpe.esy.es/ota_kitkat.xml</string>
+    <string name="xml_url_lollipop" translatable="false">http://xpe.esy.es/ota_lollipop.xml</string>
     <string name="notification_message">XPerience Rom update available</string>
 
     <!-- XPerienceOTA About -->
