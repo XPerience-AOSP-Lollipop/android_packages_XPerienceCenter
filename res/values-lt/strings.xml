@@ -16,7 +16,6 @@
  * limitations under the License.
 -->
 <resources>
-  <string name="app_name">XPerience centras</string>
   <string name="menu_settings">Nustatymai</string>
   <string name="device_title">Prietaisas</string>
   <string name="device_name_title">Pavadinimas:</string>

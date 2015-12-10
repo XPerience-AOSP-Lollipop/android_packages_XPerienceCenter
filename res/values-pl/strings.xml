@@ -16,7 +16,6 @@
  * limitations under the License.
 -->
 <resources>
-  <string name="app_name">xperienceCenter</string>
   <string name="menu_settings">Ustawienia</string>
   <string name="device_title">Urządzenie</string>
   <string name="device_name_title">Nazwa:</string>

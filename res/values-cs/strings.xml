@@ -16,7 +16,7 @@
  * limitations under the License.
 -->
 <resources>
-  <string name="app_name">XPerience Center</string>
+  <string name="app_name">XPerience updater</string>
   <string name="menu_settings">Nastavení</string>
   <string name="device_title">Zařízení</string>
   <string name="device_name_title">Jméno:</string>

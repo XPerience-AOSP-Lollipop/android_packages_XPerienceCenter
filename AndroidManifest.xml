@@ -44,6 +44,12 @@
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name" >
             <intent-filter>
+	<!--
+		Show up under Settings, About Device, System Updates.
+		Assuming that is not disabled. There's a config option for that.
+		APK needs to be in priv-app for this to work!
+		-->
+		<action android:name="android.settings.SYSTEM_UPDATE_SETTINGS" />
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
