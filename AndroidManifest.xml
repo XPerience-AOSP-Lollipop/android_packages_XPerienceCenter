@@ -70,6 +70,16 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
 
+        <activity
+            android:name="com.xperience.ota.Shortcut"
+            android:label="@string/title"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
             <meta-data
                 android:name="com.commonsware.cwac.wakeful"
                 android:resource="@xml/wakeful" />
