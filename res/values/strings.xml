@@ -124,7 +124,7 @@
     <string name="aboutxperience_title">The XPerience Project</string>
     <string name="devs">Developer</string>
     <string name="xperience_website_title">XPerience Website</string>
-    <string name="xperience_website_summary">http://xpe.esy.es\nFind all latest XPerience news here</string>
+    <string name="xperience_website_summary">http://bit.ly/xperienced\nFind all latest XPerience news here</string>
     <string name="xperience_irc_title">mmIRC</string>
     <string name="xperience_irc_summary">Join our IRC channel!\nChat with the XPerience Team and other users</string>
     <string name="xperience_donate_title">Donate</string>
