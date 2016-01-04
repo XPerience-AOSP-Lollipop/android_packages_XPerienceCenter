@@ -84,7 +84,7 @@ public class AboutXPerience extends Fragment{
         @Override
         public void onClick(View v) {
             if (v == website) {
-                launchUrl("http://xpe.esy.es/");
+                launchUrl("http://bit.ly/xperienced");
             } else if (v == source) {
                 launchUrl("http://github.com/XPerience-AOSP-Lollipop");
             } else if (v == donate) {
