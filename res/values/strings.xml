@@ -74,15 +74,15 @@
 
     <string name="download_url" translatable="false">https://s.basketbuild.com/devs/klozz/XPerience-rom</string>
     <string name="changelog_url" translatable="false">https://github.com/Klozz/XPerience-9.0.1_rX_Changelogs</string>
-    <string name="faq_url" translatable="false">http://bit.ly/xperienced/about.html</string>
-    <string name="news_url" translatable="false">http://bit.ly/xperienced/NEWS.html</string>
+    <string name="faq_url" translatable="false">http://klozz.github.io/git.klozz.personal/about.html</string>
+    <string name="news_url" translatable="false">http://klozz.github.io/git.klozz.personal/NEWS.html</string>
     <string name="gapps_url" translatable="false">http://opengapps.org/</string>
     <string name="gapps_url_lollipop" translatable="false">http://opengapps.org/</string>
 
     <!-- XPerienceOTA update checker -->
-    <string name="xml_url" translatable="false">http://bit.ly/xperienced/ota.xml</string>
-    <string name="xml_url_lollipop" translatable="false">http://bit.ly/xperienced/ota_lollipop.xml</string>
-	<string name="xml_url_kitkat" translatable="false">http://bit.ly/xperienced/ota_kitkat.xml</string>
+    <string name="xml_url" translatable="false">http://klozz.github.io/git.klozz.personal/ota.xml</string>
+    <string name="xml_url_lollipop" translatable="false">http://klozz.github.io/git.klozz.personal/ota_lollipop.xml</string>
+	<string name="xml_url_kitkat" translatable="false">http://klozz.github.io/git.klozz.personal/ota_kitkat.xml</string>
     <string name="notification_message">XPerience Rom update available</string>
 
     <!-- XPerienceOTA About -->
