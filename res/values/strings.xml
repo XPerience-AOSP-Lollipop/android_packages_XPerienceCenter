@@ -78,6 +78,7 @@
     <string name="news_url" translatable="false">http://klozz.github.io/git.klozz.personal/NEWS.html</string>
     <string name="gapps_url" translatable="false">http://opengapps.org/</string>
     <string name="gapps_url_lollipop" translatable="false">http://opengapps.org/</string>
+    <string name="gapps_url_kitkat" translatable="false">http://opengapps.org/</string>
 
     <!-- XPerienceOTA update checker -->
     <string name="xml_url" translatable="false">http://klozz.github.io/git.klozz.personal/ota.xml</string>
