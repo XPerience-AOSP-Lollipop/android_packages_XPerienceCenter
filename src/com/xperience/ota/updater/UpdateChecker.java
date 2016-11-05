@@ -137,8 +137,11 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
                 url = new URL(mContext.getString(R.string.xml_url_lollipop));
             } else if (xperienceCurVer != null && xperienceCurVer.contains("6.0") && xperienceCurVer.contains("6.1")) { //Marshmallow
                 url = new URL(mContext.getString(R.string.xml_url_marshmallow));
-            } else {
-                url = new URL(mContext.getString(R.string.xml_url)); //Last version now Nougat
+            }
+           } else if (xperienceCurVer != null && xperienceCurVer.contains("7.0")) { //Nougat 7.0
+                url = new URL(mContext.getString(R.string.xml_url_nougat7));
+            }else {
+                url = new URL(mContext.getString(R.string.xml_url)); //Last version now Nougat 7.1
             }
             urlConnection = (HttpURLConnection) url.openConnection();
             BufferedReader in = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
