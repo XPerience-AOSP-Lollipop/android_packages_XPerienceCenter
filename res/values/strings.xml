@@ -74,8 +74,8 @@
 
     <string name="download_url" translatable="false">https://s.basketbuild.com/devs/klozz/XPerience-rom</string>
     <string name="changelog_url" translatable="false">https://github.com/Klozz/XPerience-9.0.1_rX_Changelogs</string>
-    <string name="faq_url" translatable="false">http://klozz.github.io/git.klozz.personal/about.html</string>
-    <string name="news_url" translatable="false">http://klozz.github.io/git.klozz.personal/NEWS.html</string>
+    <string name="faq_url" translatable="false">https://thexperienceproject.com/faq/</string>
+    <string name="news_url" translatable="false">https://thexperienceproject.com/about/</string>
     <string name="gapps_url" translatable="false">http://opengapps.org/</string>
     <string name="gapps_url_lollipop" translatable="false">http://opengapps.org/</string>
     <string name="gapps_url_kitkat" translatable="false">http://opengapps.org/</string>
@@ -89,15 +89,15 @@
     <string name="notification_message">XPerience Rom update available</string>
 
     <!-- XPerienceOTA About -->
-    <string name="about_home_url" translatable="false"><a href="http://bit.ly/xperienced/">xperience</a></string>
+    <string name="about_home_url" translatable="false"><a href="http://thexperienceproject.com">xperience</a></string>
     <string name="about_xperience_ota">XPerience Center allows you to easily manage\n your ROM!</string>
-    <string name="about_copyright" translatable="false">\u00A9 Copyright XPerience 2015</string>
+    <string name="about_copyright" translatable="false">\u00A9 Copyright XPerience 2016</string>
     <string name="about_version" translatable="false">Center 1.4</string>
-    <string name="about_contact"><a href="http://klozz.github.io/git.klozz.personal/contact.htm">Contact us</a></string>
+    <string name="about_contact">Contact us</string>
     <string name="about_contact_text">Tell us what you think\nor let us know about a bug or problem</string>
     <string name="about_license">Open source licenses</string>
     <string name="about_license_text"></string>
-    <string name="about_license_url" translatable="false"><a href="http://klozz.github.io/git.klozz.personal/license.htm">gpl(2)</a></string>
+    <string name="about_license_url" translatable="false"><a href="thexperienceproject.com/legal/">legal</a></string>
     <string name="menu_xperiencesizer">XPerience Sizer</string>
 
     <!-- XPerienceSizer  -->
@@ -127,7 +127,7 @@
     <string name="aboutxperience_title">The XPerience Project</string>
     <string name="devs">Developer</string>
     <string name="xperience_website_title">XPerience Website</string>
-    <string name="xperience_website_summary">http://bit.ly/xperienced\nFind all latest XPerience news here</string>
+    <string name="xperience_website_summary">http://thexperienceproject.com/\nFind all latest XPerience news here</string>
     <string name="xperience_irc_title">mmIRC</string>
     <string name="xperience_irc_summary">Join our IRC channel!\nChat with the XPerience Team and other users</string>
     <string name="xperience_donate_title">Donate</string>
