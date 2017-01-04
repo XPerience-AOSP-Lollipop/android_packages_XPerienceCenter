@@ -74,8 +74,8 @@
 
     <string name="download_url" translatable="false">https://s.basketbuild.com/devs/klozz/XPerience-rom</string>
     <string name="changelog_url" translatable="false">https://github.com/Klozz/XPerience-9.0.1_rX_Changelogs</string>
-    <string name="faq_url" translatable="false">https://thexperienceproject.com/faq/</string>
-    <string name="news_url" translatable="false">https://thexperienceproject.com/about/</string>
+    <string name="faq_url" translatable="false">http://thexperienceproject.com/faq/</string>
+    <string name="news_url" translatable="false">http://thexperienceproject.com/about/</string>
     <string name="gapps_url" translatable="false">http://opengapps.org/</string>
     <string name="gapps_url_lollipop" translatable="false">http://opengapps.org/</string>
     <string name="gapps_url_kitkat" translatable="false">http://opengapps.org/</string>
