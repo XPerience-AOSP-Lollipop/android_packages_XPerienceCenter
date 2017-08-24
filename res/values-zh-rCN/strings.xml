@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2014 SlimRoms
+ * Copyright (C) 2015 The XPerience Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources>
+    <!-- XPerienceOTA main strings -->
+    <string name="app_name">XPerience 更新</string>
+    <string name="title">系统更新</string>
+    <string name="menu_settings">Settings</string>
+    <string name="device_title">设备</string>
+    <string name="device_name_title">Name:</string>
+    <string name="codename_title">Codename:</string>
+    <string name="version_title">版本:</string>
+    <string name="file_name_title">File:</string>
+    <string name="curVer">当前版本</string>
+    <string name="ok">OK</string>
+    <string name="title_update">更新</string>
+    <string name="device_info_title">设备信息</string>
+    <string name="up_to_date_title">你的系统是最新的</string>
+    <string name="no_data_title">没有可用的数据连接</string>
+    <string name="error_reading_title">不能读取XPerience OTA更新属性信息</string>
+    <string name="update_file_title">Update:</string>
+    <string name="ota_title">XPerience OTA</string>
+    <string name="reboot">已全部完成！请重启你的失败</string>
+    <string name="reboot_ok">现在重启</string>
+    <string name="reboot_cancel">不要重启</string>
+
+    <!-- XPerienceOTA settings -->
+    <string name="settings_title">XPerience OTA 设置</string>
+    <string name="about_title">关于</string>
+    <string name="update_interval_title">更新检测间隔</string>
+    <string name="update_interval_summary">选择自动检测更新的间隔</string>
+    <string name="update_interval_day">每天</string>
+    <string name="update_interval_half_day">每半天</string>
+    <string name="update_interval_hour">每个小时</string>
+    <string name="update_interval_disable">禁用</string>
+
+    <!-- XPerienceOTA error messages -->
+    <string name="system_prop_error">不能读取系统属性</string>
+    <string name="bad_url">Unable to get to download area.\nPlease inform your XPerience device maintainer!</string>
+    <string name="menu_update">正在查找更新</string>
+    <string name="toast_text">正在查找更新，请稍候...</string>
+    <string name="toast_no_data_text">没有可用的数据连接，请打开它</string>
+
+    <!-- XPerienceOTA shortcut fragment -->
+    <string name="short_cut_release_title">ROM 相关信息</string>
+    <string name="short_cut_changelog_title">更新日志</string>
+    <string name="short_cut_changelog_summary_update_available">重要!!! 请认真查看更新日志和安装说明</string>
+    <string name="short_cut_download_summary_update_available">有新的XPerience更新可用。在这里下载!</string>
+    <string name="short_cut_changelog_summary">查看更新日志和安装说明</string>
+    <string name="short_cut_additional_title">额外</string>
+    <string name="short_cut_faq_title">常问问题</string>
+    <string name="short_cut_faq_summary">查看XPerience的常问问题</string>
+    <string name="short_cut_news_title">新闻</string>
+    <string name="short_cut_news_summary">阅读最新的XPerience新闻</string>
+    <string name="short_cut_download_title">下载 XPerience</string>
+    <string name="short_cut_download_uptodate_summary">下载 XPerience</string>
+    <string name="short_cut_download_gapps_title">下载谷歌服务包</string>
+    <string name="short_cut_download_gapps_summary">下载 XPerience 扩展包</string>
+
+    <string name="download_url" translatable="false">https://s.basketbuild.com/devs/klozz/XPerience-rom</string>
+    <string name="changelog_url" translatable="false">https://github.com/Klozz/XPerience-9.0.1_rX_Changelogs</string>
+    <string name="faq_url" translatable="false">http://thexperienceproject.com/faq/</string>
+    <string name="news_url" translatable="false">http://thexperienceproject.com/about/</string>
+    <string name="gapps_url" translatable="false">http://opengapps.org/</string>
+    <string name="gapps_url_lollipop" translatable="false">http://opengapps.org/</string>
+    <string name="gapps_url_kitkat" translatable="false">http://opengapps.org/</string>
+
+    <!-- XPerienceOTA update checker -->
+    <string name="xml_url" translatable="false">http://klozz.github.io/git.klozz.personal/ota.xml</string>
+    <string name="xml_url_nougat7" translatable="false">http://klozz.github.io/git.klozz.personal/ota_N.xml</string>
+    <string name="xml_url_marshmallow" translatable="false">http://klozz.github.io/git.klozz.personal/ota_marshmallow.xml</string>
+    <string name="xml_url_lollipop" translatable="false">http://klozz.github.io/git.klozz.personal/ota_lollipop.xml</string>
+	<string name="xml_url_kitkat" translatable="false">http://klozz.github.io/git.klozz.personal/ota_kitkat.xml</string>
+    <string name="notification_message">新的 XPerience 更新可用</string>
+
+    <!-- XPerienceOTA About -->
+    <string name="about_home_url" translatable="false"><a href="http://thexperienceproject.com">xperience</a></string>
+    <string name="about_xperience_ota">XPerience Center allows you to easily manage\n your ROM!</string>
+    <string name="about_copyright" translatable="false">\u00A9 Copyright XPerience 2016</string>
+    <string name="about_version" translatable="false">Center 1.4</string>
+    <string name="about_contact">联系我们</string>
+    <string name="about_contact_text">告诉我们你的想法或者让我们知道错误或问题。</string>
+    <string name="about_license">开源软件协议</string>
+    <string name="about_license_text"></string>
+    <string name="about_license_url" translatable="false"><a href="thexperienceproject.com/legal/">legal</a></string>
+    <string name="menu_xperiencesizer">XPerience Sizer</string>
+
+    <!-- XPerienceSizer  -->
+    <string name="listsystem">list</string>
+    <string name="sizer_title">XPerience 整理器</string>
+    <string name="caution">Caution!</string>
+    <string name="sizer_message_startup">此工具允许您删除系统应用程序。请谨慎使用，只能删除您认为可以被安全删除的程序。</string>
+    <string name="cancel">取消</string>
+    <string name="sizer_message_delete">你确定要删除这个选择的程序吗?</string>
+    <string name="sizer_message_delete_multi_one">你确定要删除这个选择的程序吗?</string>
+    <string name="sizer_message_delete_multi">你确定要删除这个选择的程序吗?</string>
+    <string name="btn_delete">Delete selected APPs now!</string>
+    <string name="delete_progress_title">正在删除</string>
+    <string name="delete_progress">选择的文件将被删除，请稍候。</string>
+    <string name="delete_success">已删除</string>
+    <string name="delete_fail">不能删除</string>
+    <string name="btn_profile">配置文件</string>
+    <string name="sizer_message_sdnowrite">不能写入AD卡。</string>
+    <string name="sizer_message_sdnoread">不能读取SD卡。</string>
+    <string name="sizer_message_filesuccess">已创建配置文件。</string>
+    <string name="sizer_message_filefail">创建配置文件失败。</string>
+    <string name="sizer_message_noselect">没有已选择的</string>
+    <string name="sizer_profile_load">加载配置文件</string>
+    <string name="sizer_profile_save">保存配置文件</string>
+
+    <!-- About -->
+    <string name="aboutxperience_title">The XPerience Project</string>
+    <string name="devs">开发者</string>
+    <string name="xperience_website_title">XPerience 网站</string>
+    <string name="xperience_website_summary">http://thexperienceproject.com/\nFind all latest XPerience news here</string>
+    <string name="xperience_irc_title">mmIRC</string>
+    <string name="xperience_irc_summary">Join our IRC channel!\nChat with the XPerience Team and other users</string>
+    <string name="xperience_donate_title">捐赠</string>
+    <string name="xperience_donate_summary">给XPerience项目捐赠</string>
+    <string name="xperience_source_title">XPerience 源码</string>
+    <string name="xperience_source_summary">XPerience的源码全部开放。\n源码托管在github.com网站/</string>
+    <string name="no_irc">XPerienceIRC App not found.</string>
+    <string name="no_irc_unofficial">SlimIRC在非官方版本里不可用。</string>
+    <string name="center_summary"><b>Center</b> provides tools &amp; information to help make your experience with XPerience even better. Upgrade automatically to the newest version of our ROM with <b>XPerienceOTA</b> and remove unwanted system apps with <b>XPerienceSizer</b>.</string>
+    <string name="xperience_bugreport">错误报告</string>
+    <string name="xperience_bugreport_summary">创建完整的错误报告</string>
+    <string name="report_infosuccess">已创建错误报告, 请向XPerience project (TeamMEX)提供错误报告!你可以在SD卡中名为\"XPerience\"的文件夹里找到它.</string>
+    <string name="report_infofail">创建错误报告设备，请重试。</string>
+
+</resources>
